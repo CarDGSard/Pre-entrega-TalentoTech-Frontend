@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Syncopate:wght@400;700&family=Unbounded:wght@200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+html{
+     scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    text-align: center;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    padding: 1.0rem 0.5rem;
+    
+    ul{
+        li{
+
+            display: inline-block;
+            margin: 0 2rem;
+            a{
+                font-family: "Unbounded", sans-serif;
+                text-decoration: none;
+                color: aliceblue;
+                font-size: 1rem;  
+            }
+        }
+    }   
+}
+
+.Presentacion{
+    color: white;
+    padding: 1rem;
+    margin-top: 100px;
+    
+}
+
+
+.Presentacion h1{
+    font-family: "Unbounded", sans-serif;
+    font-weight: 500;
+    font-size: 6rem;
+    padding-right:auto;
+    
+}
+
+.Presentacion h2{
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 6px;
+    margin-top: 1rem;
+    color: #d9d9d9;
+}
+.img{
+position:flex;
+width:50%;
+height:750px;
+
+background:
+linear-gradient(to right, rgba(0, 0, 0, 0.062), rgb(0, 0, 0)),
+url('../asserts/WhatsApp Image 2026-05-11 at 11.44.56 AM.jpeg');
+
+border: 3px solid black;
+background-size:cover; 
+background-position:center;
+background-repeat:no-repeat;
+
+}
+
+.contenedor-prin{
+position: static;
+display: inline-flex;
+justify-content:space-between;
+align-items: center;
+width:100%;
+gap:40px;
+flex-wrap:wrap;
+border: 1px solid rgba(255, 255, 255, 0.144);
+}
+
+.Conteiner-consultas{
+    padding-top: 1rem;
+    display:flex;
+    justify-content:space-around;
+    width:100%; 
+}
+.consultas{
+
+color:white;
+font-family:"Unbounded", sans-serif;
+width:100%;
+background:rgba(255,255,255,0.03);
+backdrop-filter:blur(10px);
+
+font-size: 1.5rem;
+line-height:1.8;
+}
+.fi.fi-bs-angle-right{
+margin-right:12px;
+color: aqua;
+}
+
+.consultas h1{
+    text-align: center;
+}
+.consultas dd{
+    display: flex;
+    gap:3rem;
+   
+}
+
+.material-symbols-outlined{
+    color: rgb(253, 253, 253);
+    position: relative;
+    top: -50%;
+    
+}
+
+
+.Servicios h1{
+    color: #d9d9d9;
+    font-family: "Unbounded", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.Servicios p{
+    color: #d9d9d9;
+    font-family: "Unbounded", sans-serif;
+    text-align:justify;
+    font-size: 1rem;
+    max-width:250px;
+    padding: 1rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 255, 255, 0.425);
+    transition: 0.5s;
+   
+}
+a:hover{
+    color: aqua;
+}
+.contenedor img{
+    
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+    
+    
+}
+.contenedor video{
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+    
+}
+button{
+    color: rgb(0, 0, 0);
+    border-color: aqua;
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 255, 255);
+    
+}
+
+.Contenedor-texto{
+    color: white;
+    text-align: end;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.733);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+.contenedor{
+    padding-top: 1rem;
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    gap:40px;
+    flex-wrap:wrap;
+    border: 1px solid rgba(243, 239, 239, 0.123);
+
+}
+.conteiner-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto h1{
+   color: white;
+   text-align: center;
+   font-family: "Unbounded", sans-serif;
+   font-size: 3rem;
+}
+.contacto h2{
+
+   text-align: center;
+   font-family: "Unbounded", sans-serif;
+   font-size: 2rem;
+}
+
+.conteiner-re{
+    display: flex;
+    justify-content: center;    
+    border-radius: 1rem;
+}
+.conteiner-re img{
+    margin: 0.5rem;
+    border-radius: 1rem;
+    max-width: 300px;
+    
+}
+.conteiner2{
+    display: flex;
+    justify-content: center;
+}
+.conteiner2 img{
+   width: 50%;
+   height: auto;
+   border-radius: 2rem;
+   margin: 1rem;
+   border: 2px solid rgba(255, 255, 255, 0.178);
+}
+footer{
+    
+    text-align: center;
+    padding: 1.0rem 0.5rem;
+    color: #d9d9d9; 
+    
+}
+
+
