@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/formulario.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Formulario</h1>
+    <header>
+        <a href="/index.html">volver</a>
+        <H1>UN.TEC</H1>
+    </header>
+    <main>
+           <section class="Formulario">
+                <h1>Registrate</h1>
+                    <div>
+
+                        <form action="https://formspree.io/f/mbdwevpp" method="post">
+                            <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" required><br>
+                            <label for="email">Correo Electronico</label>
+                                <input type="text" id="email" name="email" required><br>
+                            <label for="mensaje">Consulta:</label>
+                            <textarea name="mensaje" id="" rows="1"></textarea><br>
+                            
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+           </section>
+    </main>
+    <footer>
+
+    </footer>    
+
 </body>
 </html>

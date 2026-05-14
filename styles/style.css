@@ -9,6 +9,7 @@
 html{
      scroll-behavior: smooth;
 }
+
 header{
     position: fixed;
     width: 100%;
