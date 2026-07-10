@@ -1,191 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UN.TEC - Reparación de Celulares</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-straight/css/uicons-bold-straight.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chevron_forward" />
 </head>
 <body>
+    <!-- Header-->
     <header>
         <nav>
             <ul>
-               
                 <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#SERVICIOS">servicio</a></li>
+                <li><a href="#SERVICIOS">Servicios</a></li>
                 <li><a href="#contact">Contacto</a></li>
-                <li><a href="./formulario.html">Registro</a></li>
+                <li><a href="./formulario.html">Regístrate</a></li>
+                <li><button id="btn-carrito">Orden de Servicio</button></li>
             </ul>
         </nav>
     </header>
 
     <main>
+       
+        <div id="mensaje" class="mensaje"></div>
+
+       
         <section class="contenedor-prin" id="Inicio">
-
-        <div class="img"></div>
-
-        <div class="Presentacion">
-        <h1>UN.TEC</h1>
-        <h2>Reparacion de celulares</h2>
-        </div>
-
+            <div class="img"></div>
+            <div class="Presentacion">
+                
+                <div class="logo-letras">
+                    <h1>U</h1>
+                    <h1>N</h1>
+                    <h1>.</h1>
+                    <h1>T</h1>
+                    <h1>E</h1>
+                    <h1>C</h1>
+                </div>
+                <h2>Reparación de Celulares</h2>
+            </div>
         </section>
+        
         
         <section class="consultas">
-            <h1>¿Tu celular tene alguno de estos problemas?</h1>
-                <div class="Conteiner-consultas">
-                    <dl>
+            <h2>¿Tu celular tiene alguno de estos problemas?</h2>
+            <div class="Conteiner-consultas">
+                <dl>
+                    <dt>Pantalla quebrada/manchada</dt>
+                    <dd>
+                        <i class="fi fi-bs-angle-right"></i>
+                        <a href="#ser-1">Cambio de Módulo (Mejor calidad)</a>
+                    </dd>
 
-                        <dt>Pantalla quebrada/manchada</dt>
-                        <dd><i class="fi fi-bs-angle-right"><a href="#ser-1" ></i>Cambio de Modulo (Mejor calidad)</a></dd>
-                        <dt>Se descarga rápido o no carga:</dt>
-                        
-                        <dd><i class="fi fi-bs-angle-right"><a href="#ser-2"></i>Solución de batería, pin de carga y diagnóstico energético.</a></dd>
+                    <dt>Se descarga rápido o no carga:</dt>
+                    <dd>
+                        <i class="fi fi-bs-angle-right"></i>
+                        <a href="#ser-2">Solución de batería, pin de carga y diagnóstico energético.</a>
+                    </dd>
 
-                        <dt>No entra el cargador o hay que mover el cable para que cargue:</dt>
-                        <dd><i class="fi fi-bs-angle-right"><a href="#ser-2"></i>Reparación o cambio del pin de carga.</a></dd>
+                    <dt>No entra el cargador o hay que mover el cable:</dt>
+                    <dd>
+                        <i class="fi fi-bs-angle-right"></i>
+                        <a href="#ser-2">Reparación o cambio del pin de carga.</a>
+                    </dd>
 
-                        <dt>Poca señal o sin red (falla de antena):</dt>
-                        <dd><i class="fi fi-bs-angle-right"><a href="#ser-3"></i>Revisión y reparación del sistema de señal y antena.</a></dd>
+                    <dt>Poca señal o sin red (falla de antena):</dt>
+                    <dd>
+                        <i class="fi fi-bs-angle-right"></i>
+                        <a href="#ser-3">Revisión y reparación del sistema de señal y antena.</a>
+                    </dd>
 
-                        <dt>Botones de encendido o volumen no responden:</dt>
-                        <dd><i class="fi fi-bs-angle-right"><a href="#ser-3"></i>Reparación de flex, botones o placa.</a></dd>
+                    <dt>Botones de encendido o volumen no responden:</dt>
+                    <dd>
+                        <i class="fi fi-bs-angle-right"></i>
+                        <a href="#ser-3">Reparación de flex, botones o placa.</a>
+                    </dd>
 
-                        <dt>Perdida de cuenta/olvidaste(pin o patron) o tenes un virus</dt>
-                        <dd><i class="fi fi-bs-angle-right"><a href="#ser-4"></i>Solucion de Sofware</a></dd>
-            
-                        <dt>No sabés qué tiene tu equipo:</dt>
-                        <dd><i class="fi fi-bs-angle-right"><a href="#ser-5"></i>Realizo diagnóstico completo del dispositivo.</a></dd>
-                        
-                    </dl>
-                </div>
-        </section>
-
-    <section class="Servicios" id="SERVICIOS">
-                    
-                    <h1>Servicios</h1>
-                    <div class="contenedor" id="ser-1">
-                        <div> 
-                            <img src="./asserts/pantallarota.jpeg" alt="">
-                            <span class="material-symbols-outlined" style="font-size: 5rem;">chevron_forward</span>
-                            <img src="./asserts/pantallaarreglada.jpeg" alt="">
-                        </div>
-
-                        <div class="Contenedor-texto">
-                            <h1>Solucion Pantalla</h1>
-                            <p>Reparación y reemplazo de pantalla completa con módulos de alta calidad.</p>
-                            <button>Consultar</button>
-                        </div>
-                    </div>
-
-                        <div class="contenedor" id="ser-2">
-                            <div class="Contenedor-texto">
-                                <h1>Problemas de Encendido</h1>
-                                <p>Reparación o cambio del centro de carga y problemas de conexión.</p>
-                                <p>Cambio de batería y diagnóstico energético para mejorar el rendimiento.</p>
-                                
-                                <button>Consultar</button>
-                            </div>
-
-                            <div>
-                                <img src="./asserts/bateria.webp" alt="">
-                            </div>
-                        </div>
-
-                        <div class="contenedor" id="ser-3">
-                            <div>
-                                <video src="./asserts/WhatsApp Video 2026-05-11 at 3.39.32 PM.mp4" width="300px" height="auto" autoplay muted loop playsinline></video>
-                            </div>
-
-                            <div class="Contenedor-texto">
-                                <h1>Reacondicionamiento</h1>
-                                <p>Cambio de Camaras, botones, parlantes, perisfericos</p>
-                            <button>Consultar</button>
-                            </div>
-                        </div>
-
-
-
-                        <div class="contenedor" id="ser-4">
-                            <div class="Contenedor-texto">
-                                <h1>Software</h1>
-                                <p>Eliminación de virus, desbloqueos, formateos y optimización del sistema.</p>
-                                <button>Consultar</button>
-                            </div>
-
-                            <div>
-                                <img src="./asserts/sofware.jpeg" alt="">
-                                
-                            </div>
-                        </div>
-
-                            <div class="contenedor" id="ser-5">
-                                
-                                <div class="Contenedor-texto">
-                                    <h1>Diagnóstico Completo</h1>
-                                    <p>Revisión total del dispositivo para detectar cualquier tipo de falla.</p>
-                                    <button>Consultar</button>
-                                </div>
-                            </div>
-                            
-
-        </section>
-
-         <section class="contacto" id="contact">
-            <H1>Reseñas</H1>
-             
-
-            <div class="conteiner-re">
-           
-                <h2>Clientes</h2>
-               
-    
-                <img src="./asserts/r2.jpg" alt="">
-                <img src="./asserts/r3.jpg" alt="">
-                  <img src="./asserts/reseña2.png" alt="">
-                <img src="./asserts/r1.jpg" alt="">
-                <img src="./asserts/r5.webp" alt="">
-            </div>
-
-            <div class="conteiner2">
-                <img src="./asserts/reseña1.png" alt="">
-              
+                    <dt>Pérdida de cuenta, olvido de PIN/Patrón o virus:</dt>
+                    <dd>
+                        <i class="fi fi-bs-angle-right"></i>
+                        <a href="#ser-4">Solución de Software</a>
+                    </dd>
+        
+                    <dt>No sabés qué tiene tu equipo:</dt>
+                    <dd>
+                        <i class="fi fi-bs-angle-right"></i>
+                        <a href="#ser-5">Realizo diagnóstico completo del dispositivo.</a>
+                    </dd>
+                </dl>
             </div>
         </section>
 
-        </section>
-
-        <section class="contacto" id="contact">
-            <H1>Contacto</H1>
-            <div class="conteiner-cont">
-            <div>
+        <!--  SERVICIOS -->
+        
+        <section class="Servicios" id="SERVICIOS">
+            <h2>Servicios</h2>
+            <ul class="lista-servicios">
                 
-                <a href="">
-                    <img src="./asserts/whatsapp.png" width="200px" alt="">
-                    <h2>Whastsapp</h2>
-                </a>
-            </div>
+                <!-- Servicio 1: Pantalla -->
+                <li class="contenedor">
+                    <article id="ser-1">
+                        <div class="contenedor-img"> 
+                            <img src="./asserts/pantallarota.jpeg" alt="Pantalla rota antes de reparar">
+                            <span class="material-symbols-outlined" style="font-size: 5rem;">chevron_forward</span>
+                            <img src="./asserts/pantallaarreglada.jpeg" alt="Pantalla reparada">
+                        </div>
+                        <div class="Contenedor-texto">
+                            <h3>Solución Pantalla</h3>
+                            <p>Reparamos y reemplazamos <strong>pantallas dañadas</strong> por golpes o caídas. Utilizamos <strong>módulos de alta calidad</strong> para garantizar una excelente respuesta táctil, <strong>colores nítidos</strong> y un acabado similar al original.</p>
+                            <button class="agregar-carrito" data-id="1" data-nombre="Solucion Pantalla" data-precio="70-100">Enviar consulta</button>
+                        </div>
+                    </article>
+                </li>
 
-            <div>
-                <a href="">
-                    <img src="./asserts/instagram.png" width="200px" alt="">
+                <!-- Servicio 2: encendido -->
+                <li class="contenedor">
+                    <article id="ser-2">
+                        <div class="Contenedor-texto">
+                            <h3>Problemas de Encendido</h3>
+                            <p>Diagnosticamos equipos que <strong>no encienden</strong>, presentan <strong>apagados inesperados</strong> o fallas de carga. Revisamos la <strong>batería</strong>, el <strong>centro de carga</strong>, la <strong>placa electrónica</strong> y otros componentes.</p>
+                            <button class="agregar-carrito" data-id="2" data-nombre="Problemas de Encendido" data-precio="100-300">Enviar consulta</button>
+                        </div>
+                        <div>
+                            <img src="./asserts/bateria.webp" alt="Batería de celular de repuesto">
+                        </div>
+                    </article>
+                </li>
 
-                    <h2>Instagram</h2>
-                </a>
+                <!-- Servicio 3: Reacondicionamiento -->
+                <li class="contenedor">
+                    <article id="ser-3"> 
+                        <div>
+                            <video src="./asserts/WhatsApp Video 2026-05-11 at 3.39.32 PM.mp4" width="300" autoplay muted loop playsinline></video>
+                        </div>
+                        <div class="Contenedor-texto">
+                            <h3>Reacondicionamiento</h3>
+                            <p>Reemplazamos <strong>cámaras</strong>, <strong>parlantes</strong>, <strong>micrófonos</strong>, <strong>botones</strong> y otros componentes. Además realizamos una <strong>limpieza interna</strong> para mejorar el rendimiento.</p>
+                            <button class="agregar-carrito" data-id="3" data-nombre="reacondicionamiento" data-precio="30-50">Enviar consulta</button>
+                        </div>
+                    </article>
+                </li>
+
+                <!-- Servicio 4: Software -->
+                <li class="contenedor">
+                    <article id="ser-4">
+                        <div class="Contenedor-texto">
+                            <h3>Software</h3>
+                            <p>Eliminamos <strong>virus</strong>, realizamos <strong>formateos</strong>, <strong>desbloqueos</strong>, <strong>actualizaciones del sistema</strong> y optimizamos el rendimiento.</p>
+                            <button class="agregar-carrito" data-id="4" data-nombre="Solucion de Software" data-precio="10-50">Enviar consulta</button>
+                        </div>
+                        <div>
+                            <img src="./asserts/sofware.jpeg" alt="Reparación de software en pantalla">
+                        </div>
+                    </article>
+                </li>
+
+                <!-- Servicio 5: Diagnóstico -->
+                <li class="contenedor">
+                    <article id="ser-5">
+                        <div class="Contenedor-texto">
+                            <h3>Diagnóstico Completo</h3>
+                            <p>Realizamos un <strong>diagnóstico integral</strong> para detectar fallas de <strong>hardware</strong> y <strong>software</strong>. Luego te entregamos un <strong>presupuesto sin compromiso</strong>.</p>
+                            <button class="agregar-carrito" data-id="5" data-nombre="Diagnóstico Completo" data-precio="sin cargo">Enviar consulta</button>
+                        </div>
+                    </article>
+                </li>
+                            
+            </ul>
+        </section>
+
+        <!-- SECCIÓN: RESEÑAS -->
+        <section class="reseñas">
+            <h2>Reseñas de Clientes</h2>
+            <div class="conteiner-re">
+                <img src="./asserts/r2.jpg" alt="Reseña de cliente 1">
+                <img src="./asserts/r3.jpg" alt="Reseña de cliente 2">
+                <img src="./asserts/reseña2.png" alt="Reseña de cliente 3">
+                <img src="./asserts/r5.webp" alt="Reseña de cliente 4">
             </div>
+            <div class="conteiner2">
+                <img src="./asserts/reseña1.png" alt="Reseña destacada">
             </div>
         </section>
 
-        
-        
-
+        <!-- SECCIÓN: CONTACTO -->
+        <section class="contacto" id="contact">
+            <h2>Contacto</h2>
+            <div class="conteiner-cont">
+                <div>
+                    <a href="https://wa.me/tu_numero" target="_blank" rel="noopener noreferrer">
+                        <img src="./asserts/whatsapp.png" width="200" alt="Icono de Whatsapp">
+                        <h3>WhatsApp</h3>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/tu_usuario" target="_blank" rel="noopener noreferrer">
+                        <img src="./asserts/instagram.png" width="200" alt="Icono de Instagram">
+                        <h3>Instagram</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
 
     </main>
+
+    <!-- MODAL DE ORDEN DE SERVICIO (CARRITO) -->
+    <div id="carrito" class="modal-carrito">
+        <div class="modal-contenido">
+            <button id="cerrar-carrito" class="Cerrar-carrito">✖</button>
+            <h2>ORDEN DE SERVICIO</h2>
+            
+            <h3>Dispositivo:</h3>
+            <div class="data_celu">
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" name="modelo" required><br>
+                <label for="problema">Descripción del problema:</label>
+                <textarea name="Problema" id="problema" rows="2"></textarea><br>
+            </div>
+                                                             
+            <h3>Seleccionaste:</h3>
+            <ul id="lista-carrito"></ul>
+
+            <button id="vaciar-carrito">Vaciar Orden</button>
+            <button id="Enviar-pedido">Solicitar Presupuesto</button>
+        </div>
+    </div>
+
     <footer>
-        <p>Un.Tec. Todos los derechos son reservados</p>
+        <p>&copy; Un.Tec. Todos los derechos reservados</p>
     </footer>
 
+    <script src="./scripts.js"></script>
 </body>
 </html>

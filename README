@@ -1,7 +1,9 @@
-Pagina web de reparacion de celulares desarrollada con HTML y CSS.
+Pagina web de reparacion de celulares desarrollada con HTML, CSS y JavasScript. 
+Descripción UN.TEC es una aplicación web desarrollada para promocionar los servicios de reparaciónde celulares y facilitar el contacto con los clientes.
+
+El sitio permite visualizar los distintos servicios ofrecidos, consultar sobre los servicios disponibles, ver reseñas, acceder a los medios de contacto y generar una orden de servicio seleccionando las reparaciones que necesita el usuario.
 
 Servicios
-
 - Cambio de modulo
 - Reparacion de pin de carga
 - Cambio de bateria
@@ -16,3 +18,29 @@ Caracteristicas
 - Videos e imagenes
 - Seccion de reseñas
 - Links de contacto
+
+ Tecnologías utilizadas
+
+-   HTML5
+-   CSS3
+-   JavaScript
+-   LocalStorage
+-   Google Fonts
+-   Flaticon
+
+Descripción de los archivos
+
+index.html Contiene la estructura principal del sitio, navegación, servicios, contacto, reseñas y el modal para la orden de servicio.
+
+style.css Define el diseño visual del sitio, incluyendo colores, tipografías, Flexbox, Grid, botones, modal y estilos responsivos.
+
+scripts.js Gestiona la lógica del sitio: - Apertura y cierre del
+modal. - Agregado de servicios. - Visualización del carrito. - Mensajes
+temporales. - Almacenamiento mediante LocalStorage(almanecenamiento persistente).
+
+-   mostrarMensaje(): muestra una notificación temporal.
+-   agregarProducto(): agrega un servicio al carrito.
+-   cargarCarrito(): recupera y muestra los datos almacenados.
+-   DOMContentLoaded: carga automáticamente el carrito.
+-   Vaciar carrito: elimina la información almacenada.
+

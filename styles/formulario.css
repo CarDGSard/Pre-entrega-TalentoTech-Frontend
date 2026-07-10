@@ -12,15 +12,16 @@ html{
 }
 main{
     display: flex;
-    margin-top: 30%;
+    margin-top: 10%;
     justify-content: center;
+     padding-top:90px;
 }
 
 
 .Formulario{
     border:1px solid white;
     border-radius: 1rem;
-
+    
     h1{
         text-align: center;
         padding: 2rem;
@@ -34,6 +35,25 @@ main{
     div{
         padding: 1rem;
     }
+    button{
+    border:2px solid rgb(20, 133, 153);
+    background: none;
+    color: rgb(18, 138, 138);
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    display:block;
+    margin:20px auto;
+    }
+    button:hover{
+    border:2px solid rgb(25, 209, 241);
+    background: none;
+    color: rgb(4, 252, 252);
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    
+}
 }
 header{
 
